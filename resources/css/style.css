@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+
+/* Site Container */
+
+body {
+  font-family: Helvetica;
+  line-height: 1.4rem;
+}
+
+
+/* Header */
+
+header {
+  background-image: url(./images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 29rem;
+  padding-top: 1rem;
+
+}
+
+nav
