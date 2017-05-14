@@ -21,9 +21,56 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 29rem;
-  padding-top: 1rem;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
 
 }
 
-nav
+.header-container {
+  width: 960px;
+  height:
+  display: flex;
+  flex-direction: column;
+  height: 29rem;
+  padding-top: 1rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: cadetblue;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding: 0 1rem;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu span {
+  padding: 0 1rem;
+
+}
