@@ -1,3 +1,11 @@
+div {
+  border: 1px solid navy;
+}
+
+span {
+  border: 1px solid lightgray;
+}
+
 html,
 body {
   margin: 0;
@@ -14,7 +22,7 @@ body {
 }
 
 
-/* Header */
+/* Header Section */
 
 header {
   background-image: url(./images/glasses-bg.png);
@@ -28,30 +36,31 @@ header {
 }
 
 .header-container {
-  width: 960px;
-  height:
   display: flex;
   flex-direction: column;
   height: 29rem;
   padding-top: 1rem;
 }
 
+
+/* Nav Bar Content*/
+
 .nav-container {
   display: flex;
   justify-content: space-between;
 }
 
-nav {
+header nav {
   display: flex;
   align-items: center;
   background-color: cadetblue;
-  width: 100%;
+  width: 960px;
   padding: 1rem;
   font-size: 1rem;
   color: white;
 }
 
-nav a {
+header nav a {
   color: white;
   text-decoration: none;
 }
@@ -72,5 +81,38 @@ nav a {
 
 .menu span {
   padding: 0 1rem;
-
 }
+
+/* Hero Text Content */
+.herotext {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10rem -2rem 0 0;
+}
+
+.herotext h1 {
+  color: black;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  align-items: center;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Main Body Section */
+
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.item-container {
+  display: flex;
+  flex-flow: wrap column;
+}
+
+
+
+/* Footer */
