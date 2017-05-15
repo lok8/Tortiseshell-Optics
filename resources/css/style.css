@@ -149,15 +149,17 @@ header nav a {
   margin-bottom: 1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* Footer */
+footer {
+  width: 960px;
+  margin: 0 auto;
+  padding: 4rem;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
