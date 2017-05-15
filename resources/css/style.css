@@ -22,7 +22,7 @@ body {
 }
 
 
-/* Header Section */
+/* HEADER Section */
 
 header {
   background-image: url(./images/glasses-bg.png);
@@ -100,8 +100,9 @@ header nav a {
   text-transform: uppercase;
 }
 
-/* Main Body Section */
+/* MAIN Body Section */
 
+/* Services Icon */
 .content {
   width: 960px;
   margin: 0 auto;
@@ -124,9 +125,29 @@ header nav a {
   align-items: center;
 }
 
+/* Info Section */
+.info {
+  width: 960px;
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
 
+.info .column {
+  width: 18rem;
+  margin: 0 2.5%;
+  display: block;
+}
 
-
+.info h2 {
+  width: 10rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background-color: cadetblue;
+  padding: .5rem 1.25rem;
+  margin-bottom: 1rem;
+}
 
 
 
