@@ -38,7 +38,6 @@ header {
 .header-container {
   display: flex;
   flex-direction: column;
-  height: 29rem;
   padding-top: 1rem;
 }
 
@@ -108,10 +107,35 @@ header nav a {
   margin: 0 auto;
 }
 
-.item-container {
+.content .item-container {
   display: flex;
-  flex-flow: wrap column;
+  justify-content: center;
+  width: 960px;
 }
+
+.content .item {
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
